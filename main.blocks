@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="/HOd)i`0,hFA$[@i%Jkz">mySprite</variable><variable type="KIND_SpriteKind" id="?F/lej/*6];BtF1:V3,K">Player</variable><variable type="KIND_SpriteKind" id="?4r+{h*h%jUg[JUmMGF}">Projectile</variable><variable type="KIND_SpriteKind" id="Z)3:)tJ(`M4#SX7?%R{S">Food</variable><variable type="KIND_SpriteKind" id="L/F={tic5pjI-h@MYFpO">Enemy</variable></variables><block type="pxt-on-start" id="I?x.?AUsI*:Ms25L~?P4" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="h!P|g]HxeTJ%TOQi.1|)"><field name="VAR" id="/HOd)i`0,hFA$[@i%Jkz">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="ENd*HThX!nwmMCp*[qLf"><value name="img"><shadow type="screen_image_picker" id="{cn^1jvabQ*/uOq4JwG1"><field name="img">img`
+4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 
+4 9 9 9 9 9 4 4 4 9 9 9 9 9 4 4 
+4 9 4 4 4 9 4 4 4 9 4 4 4 9 4 4 
+9 9 4 f 4 9 4 4 4 9 4 f 4 9 9 9 
+4 9 4 f 4 9 9 9 9 9 4 f 4 9 4 4 
+4 9 9 9 9 9 4 4 4 9 9 9 9 9 4 4 
+4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 
+4 4 4 4 4 4 a a a 4 4 4 4 4 4 4 
+4 4 4 4 4 4 a a a 4 4 4 4 4 4 4 
+4 4 4 4 4 4 a a a 4 4 4 4 4 4 4 
+4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 
+4 7 7 4 7 7 7 7 7 7 4 7 7 4 4 4 
+4 4 7 7 7 2 2 2 2 7 7 7 4 4 4 4 
+4 4 4 4 4 2 2 2 2 4 4 4 4 4 4 4 
+4 4 4 4 4 1 2 2 2 4 4 4 4 4 4 4 
+4 4 4 4 4 2 2 2 2 4 4 4 4 4 4 4 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"{cn^1jvabQ*/uOq4JwG1"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="j%*t=NpuoHdbvahi^7w0"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="Auu1eawMl9D[KvW/KFPB"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="l)t]M/EY!x!1/t!h|$5{"><field name="VAR" id="/HOd)i`0,hFA$[@i%Jkz">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="Fr_3~YdI5*6),MYYTr@*"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="Vb)s)2+tgWLq9Xen$j.="><field name="speed">100</field></shadow></value></block></next></block></statement></block><block type="keyonevent" id="w)0jUux_G0A%*4Vruk7N" x="0" y="240"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="game_control_sprite" id="BYwC.*eIeO9/{[9=R.Q;"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="XVa|Gj0%mQJOD7*jX{A:"><field name="VAR" id="/HOd)i`0,hFA$[@i%Jkz">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="wC;YhEEWIp*f2_4t@V}j"><field name="speed">20</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="9aYpDTF=1:ZCY{L,:9uC"><field name="speed">20</field></shadow></value></block></statement></block><block type="spritesetpos" id="zyniZuEfQSGlB-}7Z;E_" disabled="true" x="680" y="440"><value name="sprite"><block type="variables_get" id="aIH(t`Y/UIW*mfcaHwE|" disabled="true"><field name="VAR" id="/HOd)i`0,hFA$[@i%Jkz">mySprite</field></block></value><value name="x"><shadow type="positionPicker" id=";MUF`3qowpj6Zx?gbN3b" disabled="true"><field name="index">8</field></shadow></value><value name="y"><shadow type="positionPicker" id=";wBCP;ysC##akozepv;?" disabled="true"><field name="index">8</field></shadow></value></block></xml>
